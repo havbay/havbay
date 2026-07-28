@@ -6,9 +6,6 @@
 ![](https://streak-stats.demolab.com/?user=havbay&theme=chartreuse-dark&hide_border=true)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=havbay&theme=chartreuse-dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=havbay&theme=dark&no-frame=false&no-bg=true&margin-w=4)
-
 ---
 [![](https://komarev.com/ghpvc/?username=havbay&icon=2&color=0)](https://visitcount.itsvg.in)
 
