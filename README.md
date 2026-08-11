@@ -1,4 +1,8 @@
-<h1 align="center"><code>~/0xHavBay</code></h1>
+<p align="center">
+  <img src="./assets/header.svg" alt="~/0xHavBay" width="700">
+  <br>
+  <img src="https://komarev.com/ghpvc/?username=havbay&style=flat-square&color=ff3b45&label=PROFILE+VIEWS" alt="HavBay profile views">
+</p>
 
 ## `$ whoami`
 

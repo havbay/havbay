@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 100" role="img" aria-labelledby="title description">
+  <title id="title">0xHavBay</title>
+  <desc id="description">Red monospace heading reading ~/0xHavBay</desc>
+  <text
+    x="360"
+    y="50"
+    dominant-baseline="middle"
+    text-anchor="middle"
+    fill="#ff3b45"
+    font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+    font-size="42"
+    font-weight="700"
+  >~/0xHavBay</text>
+</svg>
