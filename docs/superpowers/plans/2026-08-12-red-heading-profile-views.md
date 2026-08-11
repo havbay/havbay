@@ -144,7 +144,8 @@ Run:
 gh api --method POST markdown -f mode=gfm -f context=havbay/havbay -f text="$(< README.md)" | rg -o '<p align="center"[^>]*>|<img[^>]*alt="(~/0xHavBay|HavBay profile views)"[^>]*>|<h2[^>]*>'
 git diff --check -- README.md
 rg -n '[ \t]+$' assets/header.svg
-git diff -- README.md assets/header.svg
+git diff -- README.md
+sed -n '1,160p' assets/header.svg
 git status --short
 ```
 
@@ -152,7 +153,7 @@ Expected:
 
 - GitHub's renderer returns one centered paragraph, both images with their alternative text, and three section headings.
 - `git diff --check` exits `0` with no output, and the SVG trailing-whitespace search exits `1` with no output.
-- The diff contains only the new SVG and the approved README heading-block replacement.
+- The README diff contains only the approved heading-block replacement, and the printed SVG matches the approved asset content.
 - `.superpowers/` remains untracked and must not be staged.
 
 - [ ] **Step 7: Commit only the implementation files**
