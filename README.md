@@ -10,10 +10,12 @@ I love cybersecurity, researching unfamiliar topics, and learning through hands-
 
 ## `$ interests`
 
-- Web Security
-- API Security
-- Reverse Engineering
-- CTF Player
+```text
+Web Security
+API Security
+Reverse Engineering
+CTF Player
+```
 
 ## `$ technologies`
 
