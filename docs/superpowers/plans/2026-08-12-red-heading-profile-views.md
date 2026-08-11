@@ -118,7 +118,7 @@ Run:
 rg -n '^<p align="center">$|header\.svg|komarev\.com/ghpvc/|^## `\$ (whoami|interests|technologies)`$|^I love cybersecurity|^- (Web Security|API Security|Reverse Engineering|CTF Player)$|^!\[(Python|JavaScript|Kubernetes|Vercel|Linux|Git)\]' README.md
 ```
 
-Expected: exactly 16 matching lines—one centered block opener, one heading image, one counter image, three section headings, one introduction, four interests, and six technology badges.
+Expected: exactly 17 matching lines—one centered block opener, one heading image, one counter image, three section headings, one introduction, four interests, and six technology badges.
 
 Run:
 
