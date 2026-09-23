@@ -17,6 +17,16 @@ Reverse Engineering
 CTF Player
 ```
 
+## `$ security-research`
+
+### ERPNext — SQL Injection
+
+Credited as the reporter of [GHSA-v38v-9h2p-hr8v](https://github.com/frappe/erpnext/security/advisories/GHSA-v38v-9h2p-hr8v), a SQL injection vulnerability allowing authenticated users, including accounts with no assigned roles, to access other users’ sensitive information and escalate privileges.
+
+**Critical · CVSS 9.6 · CWE-89**
+
+Published September 20, 2026 · Patched in 15.121.0 and 16.34.0
+
 ## `$ technologies`
 
 ![Python](https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=3FB950)
